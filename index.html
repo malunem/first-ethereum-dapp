@@ -27,13 +27,18 @@
 
       <input type="text" id="mood" placeholder="Input mood" class="form-control" />
       <div class="mx-auto mt-3">
+        <button type="button" onclick="setMood()" class="btn btn-primary">
+          Set mood
+        </button>
         <button type="button" onclick="getMood()" class="btn btn-primary me-3">
           Get mood
-        </button>
-        <button type="button" onclick="getMood()" class="btn btn-primary">
-          Set mood
         </button>
       </div>
     </div>
   </body>
+  <script
+    src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+    type="application/javascript"
+  ></script>
+  <script src="./main.js"></script>
 </html>
